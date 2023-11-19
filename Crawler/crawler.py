@@ -1,3 +1,5 @@
+import sys
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -16,7 +18,10 @@ class WebCrawler:
 
     def __init__(self):
         desired_cap = {}
-        self.browser = webdriver.Edge('msedgedriver.exe', capabilities=desired_cap)
+        if sys.platform == "win32":
+            self.browser = webdriver.Edge('Drivers/msedgedriver.exe', capabilities=desired_cap)
+        elif sys.platform == "darwin":
+            self.browser = webdriver.Edge('Drivers/msedgedriver', capabilities=desired_cap)
 
     def set_up(self):
         # browser = webdriver.Edge() 
