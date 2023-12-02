@@ -1,0 +1,20 @@
+{
+    "name" : "CamperaExt",
+    "version": "1.0.0",
+    "description": "This is a extension that shows related campuswire links",
+    "manifest_version": 3,
+    "author": "The Developer Team",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Related Campuswire Posts",
+        "permissions": [
+            "activeTab", 
+            "scripting",
+            "tabs",
+            "https://*/"
+        ],
+        "content_security_policy": {
+            "extension_pages": "default-src 'self'; style-src 'self' 'unsafe-inline'"
+        }
+    }
+}
