@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import NoSuchElementException
+from webdriver_manager.chrome import ChromeDriverManager
 
 # account
 username = ""
@@ -45,7 +46,7 @@ class WebCrawler:
             (By.XPATH, '//*[@id="wrapper"]/aside[2]/div[3]/div[2]/div[4]/div[2]/div[1]/h3')))
 
         file = open("cw.txt", "w", encoding='utf-8')
-        for i in range(0, 100):
+        for i in range(0, 5):
             xpath = '//*[@id="wrapper"]/aside[2]/div[3]/div[2]/div[' + str(i + 4) + ']'
             WebDriverWait(self.browser, response_time).until(expected_conditions.element_to_be_clickable((By.XPATH, xpath)))
             xpath_no = xpath + '/div[2]/div[1]/span'

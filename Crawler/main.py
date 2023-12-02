@@ -4,11 +4,12 @@ from preprocess import read_data
 from preprocess import data_split
 from preprocess import clean_data
 from rank import Ranker
+from flask_cors import CORS
 import operator
 import json
 
 app = Flask(__name__)
-
+CORS(app)
 data_path = "cw.txt"
 
 def crawl():
