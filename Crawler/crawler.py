@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import NoSuchElementException
-from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver_manager.chrome import ChromeDriverManager
 
 # account
 username = ""
@@ -22,7 +22,11 @@ class WebCrawler:
         if sys.platform == "win32":
             self.browser = webdriver.Edge('Drivers/msedgedriver.exe', capabilities=desired_cap)
         elif sys.platform == "darwin":
-            self.browser = webdriver.Edge('Drivers/msedgedriver', capabilities=desired_cap)
+            # Use this line if you are using Edge
+            # self.browser = webdriver.Edge('Drivers/msedgedriver', capabilities=desired_cap)
+            
+            # Use this line if you are using Chrome
+            self.browser = webdriver.Chrome()
 
     def set_up(self):
         # browser = webdriver.Edge() 
@@ -53,6 +57,8 @@ class WebCrawler:
             xpath_title = xpath + '/div[2]/div[1]/h3'
             xpath_content = xpath + '/div[2]/div[2]'
             xpath_cater = '//*[@id="wrapper"]/div[4]/div/div/div[1]/div[2]/div[1]/span'
+            xpath_likes = xpath + '/div[2]/div[3]/div[1]/span'
+            
             try:
                 number = self.browser.find_element(By.XPATH, xpath_no)
                 title = self.browser.find_element(By.XPATH, xpath_title)
@@ -60,13 +66,14 @@ class WebCrawler:
                 title.click()
                 WebDriverWait(self.browser, response_time).until(expected_conditions.element_to_be_clickable((By.XPATH, xpath_cater)))
                 cater = self.browser.find_element(By.XPATH, xpath_cater)
+                likes = self.browser.find_element(By.XPATH, xpath_likes)
 
             except NoSuchElementException:
                 continue
             self.browser.execute_script("arguments[0].scrollIntoView();", title)
 
             try:
-                file.write(number.text[1:] + '\n' + cater.text + '\n' + title.text + '\n' + content.text + '\n')
+                file.write(number.text[1:] + '\n' + cater.text + '\n' + title.text + '\n' + content.text + '\n'+ likes.text + '\n')
 
             except Exception as e:
                 print(e)

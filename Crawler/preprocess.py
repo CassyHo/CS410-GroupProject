@@ -22,7 +22,7 @@ def read_data(filepath):
         # not working for my env, comment out for now
         # post[i] = remove_urls(post[i]).rstrip('\n') 
         post[i] = re.sub(r"http\S+", "", post[i]).rstrip('\n')
-    post = np.array(post).reshape(-1, 4)
+    post = np.array(post).reshape(-1, 5)
     return post
 
 

@@ -1,0 +1,25 @@
+1277
+Exam 2
+Poll: Which exam did you feel was more difficult?
+
+0
+1276
+Project
+Using OSS Apps/Components in Project Solution
+Hello, to confirm it is acceptable to pull in Apps/Code/Projects from Open Source to use for our work, correct? Thank you!
+0
+1275
+TechReview
+Is the grade distribution different for 4 credit students?
+Noticing there is a grade breakdown that does not include the tech review paper. How much does the tech review grade account into our total grade? Also, will we receive grades for tech review soon?
+2
+1273
+Project
+How to check for peer review process.
+Hello All, I remember in participating email for peer review but now I am not able to find the one.
+0
+1268
+Project
+Peer Review Clarification
+Should we wait **after** December 8th to do the peer reviews? Some of the questions require us to confirm the existence of materials that are due on the 8th (e.g. source code, presentation). If I mark "source code not yet due" on the peer review form in CMT, am I expected to change it after the 8th if I choose to complete the peer review now? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/220dd038-7a91-42af-99d9-0fc402d2e85f/image.png)
+2
