@@ -1,0 +1,240 @@
+1279
+Project
+What to turn in for Documentation and Presentation
+I can't find clear information about this anywhere - for documentation, are we talking about code docs, README, or a writeup report? for presentation again are we talking about a recording, slides, or demo the projects along with the document writeup if there's such artifacts requirement? Any clarification here would be greatly appreciated!
+0
+1278
+Project
+Progress report update date in repo
+With each member making changes to the repo, it's hard to keep progress report date to be the deadline date. Will it affect the grade?
+0
+1277
+Exam 2
+Poll: Which exam did you feel was more difficult?
+
+0
+1276
+Project
+Using OSS Apps/Components in Project Solution
+Hello, to confirm it is acceptable to pull in Apps/Code/Projects from Open Source to use for our work, correct? Thank you!
+0
+1275
+TechReview
+Is the grade distribution different for 4 credit students?
+Noticing there is a grade breakdown that does not include the tech review paper. How much does the tech review grade account into our total grade? Also, will we receive grades for tech review soon?
+2
+1273
+Project
+How to check for peer review process.
+Hello All, I remember in participating email for peer review but now I am not able to find the one.
+0
+1268
+Project
+Peer Review Clarification
+Should we wait **after** December 8th to do the peer reviews? Some of the questions require us to confirm the existence of materials that are due on the 8th (e.g. source code, presentation). If I mark "source code not yet due" on the peer review form in CMT, am I expected to change it after the 8th if I choose to complete the peer review now? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/220dd038-7a91-42af-99d9-0fc402d2e85f/image.png)
+2
+1266
+General
+Unit 11 Question Practice Quiz
+![Screen%20Shot%202023-12-02%20at%205.58.56%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/cce25d13-80ae-4c65-a378-a4d1a5287bb1/Screen%20Shot%202023-12-02%20at%205.58.56%20PM.png) Can someone please explain these three questions?
+1
+1265
+General
+Unit 8 Question
+![Screen%20Shot%202023-12-02%20at%204.12.42%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/e6d660bd-77c2-4126-87c0-9cb76eff1e4e/Screen%20Shot%202023-12-02%20at%204.12.42%20PM.png) Can someone explain this one please?
+1
+1264
+General
+Unit 10 Practice Quiz Question
+![Screen%20Shot%202023-12-02%20at%204.01.49%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/7441c8b7-4d7b-4b3d-a4da-148b0922f172/Screen%20Shot%202023-12-02%20at%204.01.49%20PM.png)[](url) For this question why is option C not a valid option as well?
+2
+1260
+Project
+Peer review completion dates and impact on final grades
+Hi Prof, TAs, Everyone, ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/a4275f81-f7fd-4672-bdd0-19f7c8640864/image.png) If project deliverables are due on Dec 15, could you please provide clear due dates for when **Peer Reviews need to be completed?** If peers do not submit reviews, what impact does it have on grades? As it stands today, it seems like this deliverable will take us past the last day of the semester (Dec 15). Please advise soon to plan appropriately.
+0
+1259
+Project
+Project Documentation Requirement
+Could someone please confirm my understanding of documentation requirements for the project: 1. Includes updated README and ppt file. 2. Source code. 3. How to setup the application 4. How to use the application. 5. Results. Is this correct?
+0
+1256
+Project
+Peer Review
+I just looked at CMT and clicked on the reviewer tab, and there were no projects there for me to review. I have seen other posts were people have had teams to review. Are the teams to review still being sent out, or is something wrong on my end?
+0
+1255
+Exam 2
+Did anyone make a giant google form with all the previous coursera quiz Q's like last time?
+The title, thanks!
+1
+1253
+Project
+Documentation format
+Are we supposed to write the project documentation in the read me file?
+2
+1251
+General
+Missed Peer Review Accept Deadline
+I did not receive the email to accept peer review. I am wondering if I can still accept peer review and if the peer review is mandatory to receive a grade
+2
+1250
+Quiz 10
+practice quiz 2
+![Screen%20Shot%202023-12-01%20at%2010.46.12%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/fd521c39-98a1-4ed5-bbed-dd4e6363f1db/Screen%20Shot%202023-12-01%20at%2010.46.12%20PM.png) Don't really understand what's going on with this question or what the options mean. Would somebody mind explaining?
+1
+1249
+Quiz 9
+practice quiz
+![Screen%20Shot%202023-12-01%20at%2010.33.46%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/004b44e5-8877-4f22-93da-ab6cb0b3634e/Screen%20Shot%202023-12-01%20at%2010.33.46%20PM.png) A bit confused by this question. How can EM always increase the liklelihood but at the same time get trapped in a local optimal solution? Does always increase the likelihood mean from the initilization to the last step, and not necessarily from say step k to step k+1?
+0
+1244
+Exam 2
+trace of EM algorithm
+I traced the EM algorithm example in lecture 9.4 and it helped me understand it better. Thought it might help the others as well![trace.pdf](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/8962a6e2-348d-4350-953f-11ac2766fe62/trace.pdf)
+3
+1242
+Exam 2
+Can someone explain what exactly is the relation is trying to say?
+I am confused is false because the i keeps changing for the topic? I thought for a single distribution all the probabilities for the words need to add up to 1? ![Screenshot%202023-12-01%20at%205.22.29%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/3c11248b-0243-4866-a3a2-d45d16b19a7f/Screenshot%202023-12-01%20at%205.22.29%20PM.png)
+2
+1239
+Exam 2
+Exam 2 Question
+Hi all, I'm pretty confused about this question, and I wonder if anyone can provide me the equation on how to solve this problem? ![Screen%20Shot%202023-12-01%20at%204.00.00%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/348fc5b5-05c7-492a-a9f5-28e0806c9e82/Screen%20Shot%202023-12-01%20at%204.00.00%20PM.png) ![Screen%20Shot%202023-12-01%20at%203.56.24%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/e0b1fbfa-8191-4ca5-9b48-15f288cda382/Screen%20Shot%202023-12-01%20at%203.56.24%20PM.png) Thanks!
+0
+1238
+Exam 2
+Question About Mutual Information
+I was slightly confused about this concept when studying for the exam: why I(X;Y) are the same even if H(X|Y) and H(Y|X) are not equal? ![Screenshot%202023-12-01%20at%202.48.06%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/6ae953ad-6ba6-463f-92dc-11e7897e3ea3/Screenshot%202023-12-01%20at%202.48.06%20PM.png)
+0
+1233
+Exam 2
+Anyone get this error on ProctorU?
+Hope I can still take the test today. Looks like my RAM usage is very high lol. I factory reset my machine before every test and after. ![Screenshot%202023-12-01%20at%2011.34.02%E2%80%AFAM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/f68050b9-36b1-4a56-be56-af3b351e66c0/Screenshot%202023-12-01%20at%2011.34.02%E2%80%AFAM.png)
+0
+1231
+Project
+Request to extend project deadline
+I wonder if it's possible to extend the project deadline to give us one more weekend. With final assignment coming out late, exam and confusing Coursera deadline(showing 15th as ddl for document submission instead of peer review), can we get one more weekend instead of due on a Thursday. Thanks a lot for your understanding! Please consider it if a lot of students agree. Hope I don't sound very entitled. ![Screenshot%202023-12-01%20at%2011.15.45.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/c1ca079a-2e07-4ea6-af80-354a287c7445/Screenshot%202023-12-01%20at%2011.15.45.png)
+36
+1229
+Quiz 12
+Quiz 12: Which technique to select for a use case?
+I'm struggling to figure out which technique to use when? Can someone please help explain? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/9c9e8d57-8f5e-4adf-afc6-71154cb933a1/image.png)
+3
+1226
+Project
+Peer Review Grading
+Can we get clarification from the course staff on how the peer review will factor into our final project grade? Will our grade be only based on these peer reviews or will the course staff also be looking at the projects and providing a grade? Additionally, instead of being assigned 2-3 projects as on Coursera, we have been assigned 7. Is this correct?
+6
+1221
+Project
+Peer review
+Are we assigned peer review topics yet?
+0
+1219
+Exam 2
+Can anyone please explain how to solve this question? Thanks
+Suppose that we now use Laplace smoothing, what is P(θ1|d3)? Note that Laplace smoothing is an additive smoothing method that is defined by P(w|θi)=(c(w,Ti)+1)/(|Ti|+|V|) where |V| is the size of the vocabulary in the training data (i.e., the number of unique terms in the training data). T1:{d1=(w1w1w1w1w3w3)} T2:{d2=(w1w1w2w2w3w4)} 1/2 3/7 5/8 2/29
+1
+1217
+Exam 2
+Exam 2 Content Clarification
+Does the exam 2 cover all the weeks or only the weeks after exam 1 ?
+1
+1216
+Programming Assignment 3
+Where in the code do we select our classifier?
+Looking at the starter code for MP3.2 and trying to find where I can modify the classifier to choose Longformer but I cannot find it. Any tips?
+0
+1214
+General
+Finals
+Hi, I'm a senior taking the 3 credit course. Just came across showing that there will be a final at Siebel 0216? I have attached the image. Just to make sure the final is basically the exam 2 coming up right? ![Screenshot%202023-11-30%20at%2011.18.02%E2%80%AFAM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/26fd343b-c2cb-4f6f-a4b1-236502bc2f01/Screenshot%202023-11-30%20at%2011.18.02%E2%80%AFAM.png)
+0
+1213
+Exam 2
+Hi, I did made an reservation for exam2 on Nov15. I just saw my email showing cancelled.. why?
+![image2023-11-30%2006%3A48%3A51.jpg](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/8816fe38-6e98-4b31-a5f4-77172028f808/image2023-11-30%2006%3A48%3A51.jpg)![image2023-11-30%2006%3A48%3A27.jpg](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/a30528f2-c6c3-4d50-ac4d-837ee9a191cc/image2023-11-30%2006%3A48%3A27.jpg)
+0
+1212
+General
+What is the project due date?
+In Coursera I see that it is due the 15th, however I have seen some posts that it is due a week earlier? Which one is correct? Our team has been working against the 15th deadline
+0
+1211
+Quiz 8
+Entropy
+![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/01afe6bc-5fe2-445c-9e46-28d9d35478bf/image.png) Can someone help explain this one?
+0
+1210
+General
+ProctorU: Not able to see the exam CS 410 in the drop down
+Hi Fellows, I am trying to book my proctor U exam , however I dont see the CS 410 option in the dropdown ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/d3f0a7d9-db46-4bbd-b260-869edfc7e02b/image.png) Shouldn't we see CS410 in the dropdown? Regards
+0
+1209
+Programming Assignment 3
+MP3.2 return status is always FAILURE
+For those who have gotten the livedatalab grader to work, what exactly are we supposed to submit? I have attempted to submit the following three things multiple times: - livedatalab_config.json - metamia_results.csv - mp3.1_results.csv In livedatalab, it keeps giving a FAILURE response, but has no troubleshooting to help (it just constantly says: "No logs available yet. Your build may still be starting up."). Github says it successfully delivered my payload with a 200 response. metamia is a 500+1("label) line csv file (same as the test set) mp3.1 is a 420+1("label") line csv file (same as the test set).
+0
+1208
+Exam 2
+Can someone please explain these questions from Quiz 11? (11.5/11.6)
+Suppose we have the following training dataset of emails where each email is associated with the label spam or ham (not-spam). We want to train a Naive Bayes classifier based on this dataset. d1 is Spam and have words: Save Money No Fees d2 is Ham and have words: Back to the Future d3 is Ham and have words: Back to School Night Using maximum likelihood estimation without smoothing, what is P(Spam)? 1/3 1/2 1/4 1/5 Assume the same given as in Question 5 and that additive probability smoothing is being used to evaluate P(w|Spam) and P(w|Ham), where |V|=10 is the size of the vocabulary. ![Screenshot%202023-11-29%20at%207.11.17%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/25eb0d2d-6730-49b9-bc62-e7754852f683/Screenshot%202023-11-29%20at%207.11.17%20PM.png) Which of the following documents has the highest probability of being classified as spam by the Naive Bayes classifier? Hint: You should not need to compute the actual probabilities to answer this question. You can answer it by inspecting the score function on the slide entitled "Anatomy of Naïve Bayes Classifier." (Lecture 11.1) “No fees” “Save money back” “Save money future” “Future school no fees”
+1
+1207
+Programming Assignment 3
+MP3.1 Grades Issues
+Hello, I submitted MP3.1 concepts before the deadline, even I submitted 3rd concepts just in case. However, I don't see my grades in coursera and not in the students list. Check screenshots: ![Screen%20Shot%202023-11-30%20at%202.30.24%20AM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/b5e3e1d7-c8d8-43fe-8f5c-7a5cda825d2c/Screen%20Shot%202023-11-30%20at%202.30.24%20AM.png) ![Screen%20Shot%202023-11-30%20at%202.30.33%20AM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/877f8f55-8de1-4cb7-8e96-17d6cbf75c00/Screen%20Shot%202023-11-30%20at%202.30.33%20AM.png) **3rd concept**: Effects of linear transformations
+1
+1200
+Project
+Peer Review
+I've not received any assignments for peer reviews. I've accepted the CMT link multiple times. My understanding was that peer review assignments would be made available today. Has anyone received peer review assignments?
+1
+1197
+General
+Relevant Lectures
+I know that some of the topics are not going to be on the next midterm so I was wondering if anybody went ahead and made a list of useful lectures to rewatch. Edit:Maybe lectures that aren't worth watching again Thanks!
+2
+1194
+Project
+Tutorial Presentation Video
+Can I use an un-named Youtube video as a method for linking to the tutorial presentation? Or should the video of the tutorial presentation be uploaded to the Github course project directly and linked via Github in the software documentation? Pl. confirm the right method.
+2
+1193
+Exam 2
+Can anyone explain how to get this answer? Thanks
+![Screen%20Shot%202023-11-28%20at%209.15.53%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/380abca5-e0c2-4731-aede-4b249fbfe3e4/Screen%20Shot%202023-11-28%20at%209.15.53%20PM.png)
+0
+1192
+Exam 2
+Exam 2 Quizzes Study Guide
+Hi everyone, with this being Exam week I have gathered all the quizz questions and answers into a comprehensive Google Form. Please feel free to utilize this resource for your study purposes. No email sign in is required https://forms.gle/g5ugBYeEVADsPg4C8
+27
+1190
+Quiz 11
+Practice Quiz 11 Explanations Part 2
+Can someone provide more insight on these questions as well? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/932ae8c6-5755-42c8-b0b2-f4295adf25e5/image.png)![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/78bfca04-cae0-4d2c-a949-a12a4a764f53/image.png)
+2
+1189
+Quiz 11
+Practice Quiz 11 Explanations
+Can someone provide more of a robust explanation for how to understand these questions? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/1bb1d4ea-05bd-48eb-a521-229e0d9fdff4/image.png)
+1
+1187
+General
+A really nice collection of papers on LLM evaluation
+Hi, I wanted to share a collection of papers on LLM evaluation I stumbled upon recently. https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers Enjoy!
+5
+1186
+Project
+Project Pivot
+Hi, I ran into some trouble implementing my project as originally proposed. It is reasonable to extend my project in a different but adjacent direction to ensure enough progress overall was made even if not the original proposal. I plan to explain it thoroughly in my final report.
+0
+1184
+Project
+How many pages for Project Report?
+What should be the min - max pages for the Course Project Report?
+0
