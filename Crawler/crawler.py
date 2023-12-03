@@ -8,8 +8,8 @@ from selenium.common.exceptions import NoSuchElementException
 # from webdriver_manager.chrome import ChromeDriverManager
 
 # account
-username = ""
-password = ""
+username = "danmeng2@illinois.edu"
+password = "410project"
 response_time = 180
 
 CS410_Channel = "https://campuswire.com/c/G4A2F7542/feed"

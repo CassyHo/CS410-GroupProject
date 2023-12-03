@@ -36,6 +36,7 @@ def main(keyword):
         post_store[post_id] = {}
         post_store[post_id]["post_title"] = post[2]
         post_store[post_id]["post_content"] = post[3]
+        post_store[post_id]["post_likes"] = post[4]
 
     # step 3: index and rank
     # ranker = Ranker(unlabeled_data)
@@ -54,6 +55,7 @@ def main(keyword):
         object["id"] = post_id
         object["title"] = post_store[post_id]["post_title"]
         object["content"] = post_store[post_id]["post_content"]
+        object["likes"] = post_store[post_id]["post_likes"]
         data.append(object)
     json_data["data"] = data
     return json.dumps(json_data)
