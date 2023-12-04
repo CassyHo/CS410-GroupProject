@@ -1,14 +1,15 @@
 html, body {
-    width: 400px;
+    width: 600px;
     height: 600px;
     padding-left: 10px;
+    padding-right: 20px;
 }
 
 li {
     color: #128fc8;
     style: none;
     list-style-type: square;
-    padding: 5px;
+    padding: 6px;
 }
 
 
@@ -17,6 +18,14 @@ a {
     color: black;
     size: 3em;
 }
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+    size: 3em;
+}
+
+  
 h1 {
     color: #00468b;
 }

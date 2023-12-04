@@ -50,7 +50,7 @@ class WebCrawler:
             (By.XPATH, '//*[@id="wrapper"]/aside[2]/div[3]/div[2]/div[4]/div[2]/div[1]/h3')))
 
         file = open("cw.txt", "w", encoding='utf-8')
-        for i in range(0, 5):
+        for i in range(0, 20):
             xpath = '//*[@id="wrapper"]/aside[2]/div[3]/div[2]/div[' + str(i + 4) + ']'
             WebDriverWait(self.browser, response_time).until(expected_conditions.element_to_be_clickable((By.XPATH, xpath)))
             xpath_no = xpath + '/div[2]/div[1]/span'
@@ -58,7 +58,9 @@ class WebCrawler:
             xpath_content = xpath + '/div[2]/div[2]'
             xpath_cater = '//*[@id="wrapper"]/div[4]/div/div/div[1]/div[2]/div[1]/span'
             xpath_likes = xpath + '/div[2]/div[3]/div[1]/span'
-            
+            # xpath_top_answer = '*[@id="wrapper"]/div[4]/div/div/div[2]/div[2]/div[2]/div[3]/div[1]/div/p'
+            # xpath_top_answer_likes = '//*[@id="wrapper"]/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[3]'
+
             try:
                 number = self.browser.find_element(By.XPATH, xpath_no)
                 title = self.browser.find_element(By.XPATH, xpath_title)
@@ -67,6 +69,9 @@ class WebCrawler:
                 WebDriverWait(self.browser, response_time).until(expected_conditions.element_to_be_clickable((By.XPATH, xpath_cater)))
                 cater = self.browser.find_element(By.XPATH, xpath_cater)
                 likes = self.browser.find_element(By.XPATH, xpath_likes)
+                # top_answer = self.browser.find_element(By.XPATH, xpath_top_answer)
+                # top_answer_likes = self.browser.find_element(By.XPATH, xpath_top_answer_likes)
+
 
             except NoSuchElementException:
                 continue
