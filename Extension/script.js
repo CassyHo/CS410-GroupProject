@@ -5,7 +5,10 @@ async function fetchData(input) {
         // Use 'await' to wait for the result of the asynchronous operation
         var posts = await getResult(input);
         var linkbase = "https://campuswire.com/c/G4A2F7542/feed/";
-        document.getElementById("posts").innerHTML = posts.data.map(item => `<li><a href=${linkbase + item.id} target="_blank">${item.title}</a></li>`).join('');
+        document.getElementById("posts").innerHTML = posts.data.map(item => `<li>
+                                               <a href=${linkbase + item.id} target="_blank">${item.title}</a>
+                                               ${"--"+item.likes+" likes"}</li>`).join('');
+        
     } catch (error) {
         console.error("Error fetching data:", error);
     }
