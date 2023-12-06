@@ -28,9 +28,21 @@ class Ranker:
         self.doc_length = {}
         self.avg_doc_length = 0
         self.score = {}
+        self.normalized_count = {int(post[4]) for post in unlabeled_data}
 
     # build inverted index for general posts
     def index(self):
+        minVal = min(self.normalized_count)
+        maxVal = max(self.normalized_count)
+        self.normalized_count = {}
+        for post in self.unlabeled_posts:
+            # minMAX scale
+            # self.normalized_count[post[0]] = round((int(post[4]) - minVal) / (maxVal - minVal), 2)
+            # tanh normalizer
+            # self.normalized_count[post[0]] = round(math.tanh(int(post[4])), 2)
+            # sigmoid normalizer
+            self.normalized_count[post[0]] = round(self.sigmoid(int(post[4])), 2)
+
         doc_length_sum = 0
         for post in self.unlabeled_posts:
             post_id = post[0]
@@ -55,6 +67,9 @@ class Ranker:
 
         self.avg_doc_length = doc_length_sum / len(self.unlabeled_posts)
 
+    def sigmoid(self, x):
+        return 1 / (1 + math.exp(-x))
+
     # get term frequency of a word in a post
     def get_term_frequency(self, word, post_id):
         try:
@@ -71,6 +86,9 @@ class Ranker:
         else:
             return 0
 
+    def get_likes_count(self, post_id):
+        return self.normalized_count[post_id]
+
     # compute score of each post given the query
     def computeScore(self, query):
         k = 1.5
@@ -82,10 +100,13 @@ class Ranker:
                 term_frequency = self.get_term_frequency(word, post_id)
                 doc_length = self.doc_length[post_id]
                 idf = self.computeIDF(word)
+                # BM25 + Pivoted Length Normalization
                 term_score = (term_frequency * (k + 1)) / (term_frequency + k * (1 - b + b * (doc_length / self.avg_doc_length)))
+                # IDF weighing
                 term_score *= idf
                 score += term_score
-            self.score[post_id] = score
+            # mutiple likes_count parameter
+            self.score[post_id] = score * self.normalized_count[post_id]
 
     # compute idf
     def computeIDF(self, word):
