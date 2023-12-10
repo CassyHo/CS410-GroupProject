@@ -5,15 +5,19 @@ from nltk.stem import SnowballStemmer
 import re
 import math
 
+# initialize NLTK components
 stop_words = set(stopwords.words('english'))
 stemmer = SnowballStemmer('english')
 
 # remove non-English words and stop words
 def clean_data(txt, is_stem=False):
+    # replace any digit, non-alphabetic found in txt with an empty string and convert to lower case
     txt = re.sub('[0-9]', '', txt)
     txt = txt.lower()
     txt = re.sub('[^a-zA-Z]', ' ', txt)
+    # tokenize words
     word_tokens = word_tokenize(txt)
+    # apply stemming and remove stop words
     if is_stem:
         filtered_word = [stemmer.stem(w) for w in word_tokens if w not in stop_words]
     else:
@@ -21,7 +25,7 @@ def clean_data(txt, is_stem=False):
     return filtered_word
 
 class Ranker:
-
+    # initialize the Ranker obkect
     def __init__(self, unlabeled_data):
         self.unlabeled_posts = unlabeled_data
         self.inverted_index = {}
@@ -35,6 +39,7 @@ class Ranker:
         minVal = min(self.normalized_count)
         maxVal = max(self.normalized_count)
         self.normalized_count = {}
+        # Normalize Likes using sigmoid function
         for post in self.unlabeled_posts:
             # minMAX scale
             # self.normalized_count[post[0]] = round((int(post[4]) - minVal) / (maxVal - minVal), 2)
@@ -67,10 +72,11 @@ class Ranker:
 
         self.avg_doc_length = doc_length_sum / len(self.unlabeled_posts)
 
+    # sigmoid function for normalization
     def sigmoid(self, x):
         return 1 / (1 + math.exp(-x))
 
-    # get term frequency of a word in a post
+    # get the term frequency of a word in a specific post
     def get_term_frequency(self, word, post_id):
         try:
             term_frequency = self.inverted_index[word]['postings'][post_id] 
@@ -79,17 +85,18 @@ class Ranker:
             return 0
 
 
-    # get doc frequency of a word
+    # get the document frequency of a word
     def get_doc_frequency(self, word):
         if word in self.inverted_index:
             return len(self.inverted_index[word]['postings'])
         else:
             return 0
 
+    # get the normalized likes count for a post
     def get_likes_count(self, post_id):
         return self.normalized_count[post_id]
 
-    # compute score of each post given the query
+    # compute the relevance score of each post given a query
     def computeScore(self, query):
         k = 1.5
         b = 0.75
@@ -105,10 +112,10 @@ class Ranker:
                 # IDF weighing
                 term_score *= idf
                 score += term_score
-            # mutiple likes_count parameter
+            # Multiply with normalized likes_count parameter
             self.score[post_id] = score * self.normalized_count[post_id]
 
-    # compute idf
+    # compute the Inverse Document Frequency(IDF) for a word
     def computeIDF(self, word):
         doc_frequency = self.get_doc_frequency(word)
         idf = math.log((len(self.unlabeled_posts) - doc_frequency + 0.5) / (doc_frequency + 0.5))

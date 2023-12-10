@@ -8,28 +8,36 @@ from flask_cors import CORS
 import operator
 import json
 
+# create a Flask web app
 app = Flask(__name__)
+# allow cross-origin requests
 CORS(app)
+
+# the path to the file
 data_path = "cw.txt"
 
+# initiate web crawling using WebCrawler class
 def crawl():
     crawler = WebCrawler()
     crawler.set_up()
     crawler.scrap_page()
     crawler.close()
 
+# function that executed before the first request to the Flask app.
 @app.before_first_request
 def init():
     # step 1: crawl the page upon using the api for the first time
     crawl() 
     return "Posts are crawled. Add query parameter in the url to search post by keyword."
 
+# handle request with a keyword parameter. Keyword is the keyword entered for searching posts
 @app.route("/<keyword>")
 def main(keyword):
     # step 2: clean the data and categorize
     post_data = read_data(data_path)
     labeled_data, unlabeled_data = data_split(post_data)
 
+    # create a dictionary and store the post information
     post_store = {}
     for post in post_data:
         post_id = post[0]
@@ -45,11 +53,14 @@ def main(keyword):
     keyword = clean_data(keyword)
     ranker.computeScore(keyword)
 
-    # step 4: get the top five post
+    # step 4: get the top five posts
     ranker.score = sorted(ranker.score.items(),key=operator.itemgetter(1),reverse=True)
     n_post_ids = [post[0] for post in ranker.score][:5]
+
+    # prepare JSON response data
     json_data = {}
     data = []
+    # loop through the post id for the top five posts
     for post_id in n_post_ids:
         object = {}
         object["id"] = post_id

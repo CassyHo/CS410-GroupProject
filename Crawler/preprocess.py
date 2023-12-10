@@ -8,13 +8,15 @@ from nltk.stem import SnowballStemmer
 import re
 from rank import Ranker
 
+# initialize NLTK components
 stop_words = set(stopwords.words('english'))
-data_path = "cw.txt"
 stemmer = SnowballStemmer('english')
 
+# specify the path to the file
+data_path = "cw.txt"
 
-# load the Campuswire posts crawled
-# Format: [PostID, Category, Title, Content]
+# Read and preprocess Campuswire posts crawled from the text file cw.txt
+# Format: [PostID, Category, Title, Content, Likes]
 def read_data(filepath):
     post_file = open(filepath, "r+", encoding="utf-8")
     post = post_file.readlines()
@@ -28,10 +30,16 @@ def read_data(filepath):
 
 # remove non-English words and stop words
 def clean_data(txt, is_stem=False):
+
+    # replace any digit, non-alphabetic found in txt with an empty string and convert to lower case
     txt = re.sub('[0-9]', '', txt)
     txt = txt.lower()
     txt = re.sub('[^a-zA-Z]', ' ', txt)
+
+    # tokenize words
     word_tokens = word_tokenize(txt)
+
+    # apply stemming and remove stop words
     if is_stem:
         filtered_word = [stemmer.stem(w) for w in word_tokens if w not in stop_words]
     else:
