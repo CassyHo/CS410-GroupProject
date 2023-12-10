@@ -1,7 +1,7 @@
 {
     "name" : "CamperaExt",
     "version": "1.0.0",
-    "description": "This is a extension that shows related campuswire links",
+    "description": "This is a extension that shows related Campuswire post links",
     "manifest_version": 3,
     "author": "The Developer Team",
     "action": {
