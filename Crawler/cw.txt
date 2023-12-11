@@ -1,3 +1,183 @@
+1370
+Project
+Can we make changes in project proposal and update progress report ?
+Hello , As we are in last phase of project completion is it ok to update project proposal documents as per latest changes made in project like use of other elements to make it more enhanced? Also there is change and new updates in status of project progress documents ? My question is if I make changes in existing document or replace it with updated version will it cause negative marking ?
+0
+1368
+Project
+Week 16 Coursera Submission - Project Code, Documentation and Presentation
+All the team members need to go to the below link and submit from Coursera? Please confirm. https://www.coursera.org/learn/cs-410/assignment-submission/pHUCQ/project-code-documentation-and-presentation So far our team captain did the submission, let us know if other team members have to do the same from Coursera. Project Code, Documentation and Presentation Thanks
+0
+1367
+Programming Assignment 3
+Errors with 3.2
+It seems like a lot of students are having errors with the grading for 3.2, but there's been no response from TAs, not even just acknowledging the problem by saying there might be discussion about it. Personally, I am not free after this Wednesday (and even then, I was hoping to have my finals week free for the rest of my classes after completing the last thing for this class). Honestly, I haven't had a problem with the rest of the class despite the back-and-forth, but this is getting to the point where it's the end of the semester, and I don't know where 5% of my grade could be going. I understand there's a lot on your plates, but could someone at least acknowledge that the Campuswire is being read? Could there please be an update? Is there a specific format the CSVs need to be in? Is there just a server error? What is going on?
+3
+1364
+Programming Assignment 3
+MP 3.2 Path
+I am having trouble figuring out how to connect my data to the google collab notebook so that it can read it. Currently, the line df = pd.read_csv(f"{MAIN_DIR}/train_data.csv") is erroring out on me I've put the notebook in my mp3 file on my google drive, along with the data, but a "pwd" command in the notebook says that my current path is /content. I've got the starter code that mounts drive.mount('/content/drive') I've tried other iterations, such as drive.mount('/content/drive/Mydrive') drive.mount('/Mydrive') drive.mount('/mp3') But nothing works.
+0
+1363
+General
+Grade for MP2.2
+I need this grade updated. See below scoreboard: image.png Let me know if you need anything else. I submitted this long ago, so I am a bit confused why it isn't graded. Thanks, -Joel
+0
+1362
+Project
+project github repository
+I saw that some peer reviews fork their repository from the "main" cs410 project repo. I couldn't see any of this link in our instructions or anywhere in coursera. Is this something we need to do necessarily? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/f338805f-b79e-45f5-91d6-2669be126eb9/image.png)
+1
+1360
+Project
+Grading rubric unclear about the documentation
+Hi I notice one of the grading rubric in CMT is answer questions from this document: https://docs.google.com/document/d/1b-EagO17Og7_ESj5hkP5x4EFrVPQAtBlH9YvsgEzjnY/edit?usp=sharing ![Screenshot%202023-12-09%20at%2015.27.17.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/42167d40-2968-4c13-87a4-89a6128619bf/Screenshot%202023-12-09%20at%2015.27.17.png) However, I only found questions asked for proposal. Please point out where are the questions for final report? Or are we supposed to answer questions in the proposal again? ![Screenshot%202023-12-09%20at%2015.30.29.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/32d28d20-b274-4459-889e-21824e59414c/Screenshot%202023-12-09%20at%2015.30.29.png)
+0
+1358
+General
+Unlinked My Account
+Hi, I unlinked my account to fix an error for MP 3.2 because no logs were appearing and I wanted to re-add the token, and now it shows that I never submitted MP 2.2 or anything, but I was supposed to receive extra credit and such for one of those MPs due to the leaderboard. Was the leaderboard saved at some point? Thanks.
+2
+1357
+Programming Assignment 3
+Out of Memory
+I keep running out of memory when trying to train and test my data on the metamia datasets. Even when I use the default BERT code provided. I am in the Colab notebook environment. What is the sauce to fix this? Thanks
+1
+1356
+Programming Assignment 2
+MP2.2 still Overdue
+Its been 3 days since I posted #1321 and then again posted #1326 privately to TAs about MP 2.2 is still showing overdue on Coursera. I have submitted in modified assignment. I don't understand why they haven't yet replied or anything. I thought campuswire was THE place to communicate with our professors. Why is not one responding to something that is a genuine issue.
+0
+1352
+Programming Assignment 3
+MP 3.2 Failure with No Error Message
+Hi, I keep getting this error message for MP 3.2: ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/4cf52a4e-a44a-47a5-806a-2d44ca80b279/image.png) I confirmed that my output has 501 lines (metamia) and 421 lines, respectively, when including the column title. I also initially did not have commas in my output csv's, but I added them in to try and see if that would fix anything either. Has anyone ran into this? The error message isn't very helpful.
+2
+1351
+Programming Assignment 3
+Failure for every MP3.2 submission?
+Hello, When MP3.2 was first released I successfully submitted and received a pass on the leaderboard. However, since the mp3.1_data was released every submission receives a 'Failure' in livedatalab with "no logs available yet. Your build may still be starting up". I have confirmed I have the livedatalab_config.json, metamia_results.csv and mp3.1_results.csv in my git submission. The submission is being pushed and is being shown in my submission history on Livedatalab. I'm even on the leaderboard from my original submission on 11/17 with a pass. Has anyone had this issue? I've reloaded my git and rerun the workbook twice and no luck. I've also sent a note to the TAs; hoping they can help and update my grade in Coursera. Cheers, tgc3
+3
+1349
+Project
+Written report required?
+Hi all, I think I know the answer to this, but I would appreciate any corroboration from other students/instructions - are we required to submit a formal final report for the project, or will the project code, documentation (comments + readme), and video presentation suffice? Thanks!
+1
+1345
+Project
+Confirming Final Project Submission
+Hi Team, So to "submit" final project, is it just that we commit to our GitHub Repos? And in terms of deadlines, we have up until Dec 15 to make commits? Is there somewhere where we say we are done and ready for review? Or just that reviews can only start after Dec 15?
+1
+1341
+Project
+Can the prompt for Question 4 of the peer review feedback form be made more concrete?
+Question 4 prompt in the CMT peer review feedback form is very vague. Can we have more guidance on how to fairly and consistently answer this question? ![Screen%20Shot%202023-12-07%20at%208.57.21%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/c95d1157-8031-4573-8646-9a9bc034a246/Screen%20Shot%202023-12-07%20at%208.57.21%20PM.png)
+1
+1340
+Project
+Peer reviews invitation - STILL NOT RECEIVED
+Hi, I still haven't received a peer review invitation for CMT. I already posted about this before, I added my name to both lists that were posted on campuswire, and I've been checking my inbox and junk mails. I also confirmed my email multiple times. Can a TA please help me get the invitation soon so I can complete the peer reviews for next week? If I don't get the invite, I won't be able to complete the peer reviews and I don't want my grade to be affected for something that isn't my fault. thank you
+2
+1338
+Project
+Project Review Criteria ?
+Hello , Just wondering do we have any parameters available or provided to review peer projects ? How we all ensure reviewing on same parameter and baselined in same way as others doing. As person to person it may vary.
+0
+1337
+Project
+Confusion on Final Project Submission?
+Hi! None of my project checkpoint grades show up in campuswire and there's apparently two google sheets to sign up for the final project. I'm a little confused. https://docs.google.com/spreadsheets/d/1ZmeAR8uMgTGbVHFwzw4UAvkFpW6ldEWO4hZt-RApO9c/edit#gid=0 https://docs.google.com/spreadsheets/d/1QyucPdnIichdZ9pgfboNkwq0Kkle2AGLjddkzVHKTeo/edit#gid=0
+1
+1336
+Programming Assignment 3
+Submission Failure for MP3.2?
+Hi, I modified the code and got my results for the `metamia_results.csv` ad `mp3.1_results.csv` files and submitted but I got a strange error message in LiveDataLab. I checked both of these files and verified that they each have 500 rows. ``` Beginning execution... DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality. Defaulting to user installation because normal site-packages is not writeable Collecting pandas Downloading pandas-0.24.2-cp27-cp27mu-manylinux1_x86_64.whl (10.1 MB) Collecting scikit-learn Downloading scikit_learn-0.20.4-cp27-cp27mu-manylinux1_x86_64.whl (5.5 MB) Collecting requests Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB) Collecting numpy>=1.12.0 Downloading numpy-1.16.6-cp27-cp27mu-manylinux1_x86_64.whl (17.0 MB) Collecting pytz>=2011k Downloading pytz-2023.3.post1-py2.py3-none-any.whl (502 kB) Collecting python-dateutil>=2.5.0 Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB) Collecting scipy>=0.13.3 Downloading scipy-1.2.3-cp27-cp27mu-manylinux1_x86_64.whl (24.8 MB) Collecting idna<3,>=2.5; python_version < "3" Downloading idna-2.10-py2.py3-none-any.whl (58 kB) Collecting certifi>=2017.4.17 Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB) Collecting chardet<5,>=3.0.2; python_version < "3" Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB) Collecting urllib3<1.27,>=1.21.1 Downloading urllib3-1.26.18-py2.py3-none-any.whl (143 kB) Collecting six>=1.5 Downloading six-1.16.0-py2.py3-none-any.whl (11 kB) Installing collected packages: numpy, pytz, six, python-dateutil, pandas, scipy, scikit-learn, idna, certifi, chardet, urllib3, requests WARNING: The scripts f2py, f2py2 and f2py2.7 are installed in '/home/livedatalab/.local/bin' which is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location. WARNING: The script chardetect is installed in '/home/livedatalab/.local/bin' which is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location. Successfully installed certifi-2021.10.8 chardet-4.0.0 idna-2.10 numpy-1.16.6 pandas-0.24.2 python-dateutil-2.8.2 pytz-2023.3.post1 requests-2.27.1 scikit-learn-0.20.4 scipy-1.2.3 six-1.16.0 urllib3-1.26.18 File "mp3.2_grader.py", line 73, in <module> test_mp3.score_dataset("/azure/data/CS410/mp3.2/mp3.1_eval_data.csv", "mp3.1_results.csv") File "mp3.2_grader.py", line 50, in score_dataset f1 = f1_score(true_labels, student_labels, average="macro") File "classification.py", line 720, in f1_score sample_weight=sample_weight) File "classification.py", line 834, in fbeta_score sample_weight=sample_weight) File "classification.py", line 1031, in precision_recall_fscore_support y_type, y_true, y_pred = _check_targets(y_true, y_pred) File "classification.py", line 71, in _check_targets check_consistent_length(y_true, y_pred) File "validation.py", line 235, in check_consistent_length " samples: %r" % [int(l) for l in lengths]) ValueError: Found input variables with inconsistent numbers of samples: [420, 500] Build step 'Execute shell' marked build as failure Finished: FAILURE ``` What am I doing wrong here?
+0
+1335
+Project
+How do we submit Demo?
+Can it just be a Youtube Video on the README.md?
+0
+1331
+TechReview
+Technology Review Submitted but still shows overdue
+hi, I submitted Tech Review to the CMT a long time ago, but the grade is still displayed as overdue on Coursera. Does anyone have the same grade issue?
+5
+1327
+Programming Assignment 3
+3.2 Grade not Updating
+Is anyone else having issues with 3.2 grade not showing up in Coursera? I launched livedatalab through Coursera initially and it even says "started" under 3.2 but still no grade. Here are my results if a TA can help with this. Thank you! ![Screenshot%202023-12-06%20at%201.09.28%E2%80%AFPM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/406b0adf-7092-46fe-a214-389ccd462852/Screenshot%202023-12-06%20at%201.09.28%E2%80%AFPM.png)
+2
+1323
+Project
+Web hosting
+If we are leveraging a API we’ve developed for a chrome extension, does that API need to be web hosted or can we just run it locally when we demo the extension?
+1
+1321
+Programming Assignment 2
+MP2.2 still showing Overdue. Submitted in the modified version.
+MP 2.2 is still showing overdue on Coursera. I have submitted in modified assignment project. ![Screenshot%202023-12-06%20at%208.10.37%E2%80%AFPM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/fdf9a3d1-af11-4748-9234-730ff984aeb4/Screenshot%202023-12-06%20at%208.10.37%E2%80%AFPM.png)
+0
+1319
+Programming Assignment 3
+MP3.2 keep getting failure
+I keep getting a FAILURE after I have submitted the metamia_results.csv and mp3.1_results.csv. The error message shows that "Found input variables with incosistent numbers of samples;[500, 1500]" Could someone explain what this mean and how to resolve it? Thanks. ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/1f946755-d48f-4311-84b3-3233fbe912f0/image.png)
+0
+1316
+Programming Assignment 3
+Mp3.2 epoch duration
+For the cell which you can define your own num_epochs, is it supossed to run like several hours? I hear someone finished in an hour so I was wonderinf if I should increase the epoch.
+1
+1314
+General
+Final Project Grade Breakdown
+Team formation (5% Project proposal (5%) Progress report (5%) Software code submission with documentation (65%The 65% of the grade would be distributed as follows: 45% for source code submission; 20% for documentation submission. Both would be graded based on completion. Software usage tutorial presentation (20%): These were the splits I found on the coursera. Are these still valid?
+0
+1313
+Project
+CMT Project peer review: No projects to review
+Has anyone got project to review? So far I have no projects I was assigned to review for. ![Capture.PNG](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/3bfa276e-bd63-4f93-9aee-82ea06bac872/Capture.PNG)
+1
+1311
+Project
+Project runtime requirements?
+The project instructions in Week 1 on Coursera say "Software usage tutorial presentation (20%): 10% of the grading is based on completion and the remaining 10% is based on result of testing the software by graders". However, I am encountering long runtimes for my code (due to using named entity recognition on 6500+ documents). It runs, but takes 3+ hours. I can reduce this time, but would lose accuracy, which is not desired. For peer-grading purposes, I thought I might select a small subset of documents randomly (allowing the grader to select random seed if desired) and show that the code runs on this subset (reducing runtime to just a couple minutes) to accomplish the second 10% of the Software Usage Tutorial Presentation grading requirements. **In general, how should students address long runtimes and proving their application/code base works for grading in the "Software usage tutorial presentation" category? ** Thanks!
+0
+1307
+General
+[Extra Credit] List of extra credit opportunities and calculation towards final grade
+Hello TAs and Professor Is it possible to list out all the extra credit opportunities and how many points you can get for each? Also how the extra credit is calculated into the final grade? So far i am aware of the following opportunities(not sure if there are others). 1. Post on CDL (I think the deadline for this was in October.) 2. Rank high in MP 2.2 3. Rank high in MP 3.2 4. Participate in Campuswire
+7
+1301
+Project
+Peer Review Grade Contribution
+Can the TAs clarify what % of an individual student's grade contributes towards the peer review? The course project % breakdown doesn't indicate a weight for peer review.
+8
+1299
+General
+mp 3.2
+I don't get what I'm supposed to do for mp3.2. I have the files and everything on drive and I get that the csv outputs for both files at the end but what are we supposed to do other than run it?
+1
+1298
+Project
+Peer Review - Rubrics
+Hi, is there any instructions on the peer review rubrics? Thanks
+1
+1291
+Project
+[Final Project] Testing our Software
+Hello! I was wondering if there are any requirements for how we are supposed to test our projects. https://www.coursera.org/learn/cs-410/supplement/vtHNZ/course-project-overview doesn't seem to have any details on what kinds of tests we should be performing, if any.
+1
+1289
+Programming Assignment 3
+MP3.2 Grade Not Updated on Coursera
+I see i got score in livedatalab. however my mp3.2 grade is not updated to couseara yet.![Screen%20Shot%202023-12-03%20at%2010.11.35%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/35cbde8b-ad7f-4eeb-afa2-639bdabd95c0/Screen%20Shot%202023-12-03%20at%2010.11.35%20PM.png)
+0
+1287
+General
+New Time of Instructor Office Hour: 8-9pm, Monday, Dec. 4, 2023
+Dear Students, Due to traveling, my office hour this week will be on Monday (tomorrow, Dec. 4, 2023), at the same time, 8-9pm US Central Time (instead of on Tuesday). Here's information about joining the office hour, including Zoom link and phone numbers to use. https://illinois.zoom.us/j/85668455926?pwd=cXpsRHpVeHdPT0l6WW11ejBMcnN6QT09 Meeting ID: 856 6845 5926 Password: cs410 One tap mobile +13126266799,,85668455926# US (Chicago) +14702509358,,85668455926# US (Atlanta) Dial by your location +1 312 626 6799 US (Chicago) +1 470 250 9358 US (Atlanta) +1 470 381 2552 US (Atlanta) +1 646 518 9805 US (New York) +1 669 219 2599 US (San Jose) +1 669 900 6833 US (San Jose) Join by Skype for Business https://illinois.zoom.us/skype/85668455926 Thanks, -Cheng
+2
 1285
 Programming Assignment 3
 How long did MP3.2 take you to complete?
@@ -7,11 +187,6 @@ How long did MP3.2 take you to complete?
 Programming Assignment 3
 MP3.2 training time
 Hi, I switched to the Longformer model as suggested in the MP3.2 description and it seems like its taking about 5 minutes for each training epoch. Is this normal?
-0
-1281
-Exam 2
-Issue starting the Proctor Exam
-Your org used windows defender application control to block the app Unable to run the LogMeIn Rescue applet. Appreciate any help at the earliest.
 0
 1279
 Project
@@ -37,7 +212,7 @@ Hello, to confirm it is acceptable to pull in Apps/Code/Projects from Open Sourc
 TechReview
 Is the grade distribution different for 4 credit students?
 Noticing there is a grade breakdown that does not include the tech review paper. How much does the tech review grade account into our total grade? Also, will we receive grades for tech review soon?
-2
+3
 1273
 Project
 How to check for peer review process.
@@ -63,6 +238,11 @@ General
 Unit 10 Practice Quiz Question
 ![Screen%20Shot%202023-12-02%20at%204.01.49%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/7441c8b7-4d7b-4b3d-a4da-148b0922f172/Screen%20Shot%202023-12-02%20at%204.01.49%20PM.png)[](url) For this question why is option C not a valid option as well?
 2
+1263
+Project
+[Final notice] Project peer review invitation
+Due to some students still missed the reviewer invitation, I will make the final supplement next week. Please make sure your profile is added correctly on this [sheet](https://docs.google.com/spreadsheets/d/1-D0HR4xN7-5ym0DfdJsi7FVy6Ey7dy4Y1_QAnOwRpbE/edit?usp=sharing) before **Dec. 4th** if you are not a reviewer now. BTW, we received some requests about extending the due of peer review and project delivery submission. We will consider it and give feedback ASAP. But before that, the current deadline is still 8th for project submission and 15th for peer review. Thanks.
+5
 1260
 Project
 Peer review completion dates and impact on final grades
@@ -93,3 +273,203 @@ General
 Missed Peer Review Accept Deadline
 I did not receive the email to accept peer review. I am wondering if I can still accept peer review and if the peer review is mandatory to receive a grade
 2
+1250
+Quiz 10
+practice quiz 2
+![Screen%20Shot%202023-12-01%20at%2010.46.12%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/fd521c39-98a1-4ed5-bbed-dd4e6363f1db/Screen%20Shot%202023-12-01%20at%2010.46.12%20PM.png) Don't really understand what's going on with this question or what the options mean. Would somebody mind explaining?
+1
+1249
+Quiz 9
+practice quiz
+![Screen%20Shot%202023-12-01%20at%2010.33.46%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/004b44e5-8877-4f22-93da-ab6cb0b3634e/Screen%20Shot%202023-12-01%20at%2010.33.46%20PM.png) A bit confused by this question. How can EM always increase the liklelihood but at the same time get trapped in a local optimal solution? Does always increase the likelihood mean from the initilization to the last step, and not necessarily from say step k to step k+1?
+0
+1243
+Project
+Project Grades Update
+When can we get grades for group project submissions? Sorry for the repetitive question that was raised in #1168 but it wasn’t answered. Appreciate any clarification!!
+1
+1242
+Exam 2
+Can someone explain what exactly is the relation is trying to say?
+I am confused is false because the i keeps changing for the topic? I thought for a single distribution all the probabilities for the words need to add up to 1? ![Screenshot%202023-12-01%20at%205.22.29%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/3c11248b-0243-4866-a3a2-d45d16b19a7f/Screenshot%202023-12-01%20at%205.22.29%20PM.png)
+2
+1239
+Exam 2
+Exam 2 Question
+Hi all, I'm pretty confused about this question, and I wonder if anyone can provide me the equation on how to solve this problem? ![Screen%20Shot%202023-12-01%20at%204.00.00%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/348fc5b5-05c7-492a-a9f5-28e0806c9e82/Screen%20Shot%202023-12-01%20at%204.00.00%20PM.png) ![Screen%20Shot%202023-12-01%20at%203.56.24%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/e0b1fbfa-8191-4ca5-9b48-15f288cda382/Screen%20Shot%202023-12-01%20at%203.56.24%20PM.png) Thanks!
+0
+1238
+Exam 2
+Question About Mutual Information
+I was slightly confused about this concept when studying for the exam: why I(X;Y) are the same even if H(X|Y) and H(Y|X) are not equal? ![Screenshot%202023-12-01%20at%202.48.06%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/6ae953ad-6ba6-463f-92dc-11e7897e3ea3/Screenshot%202023-12-01%20at%202.48.06%20PM.png)
+0
+1233
+Exam 2
+Anyone get this error on ProctorU?
+Hope I can still take the test today. Looks like my RAM usage is very high lol. I factory reset my machine before every test and after. ![Screenshot%202023-12-01%20at%2011.34.02%E2%80%AFAM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/f68050b9-36b1-4a56-be56-af3b351e66c0/Screenshot%202023-12-01%20at%2011.34.02%E2%80%AFAM.png)
+0
+1231
+Project
+Request to extend project deadline
+I wonder if it's possible to extend the project deadline to give us one more weekend. With final assignment coming out late, exam and confusing Coursera deadline(showing 15th as ddl for document submission instead of peer review), can we get one more weekend instead of due on a Thursday. Thanks a lot for your understanding! Please consider it if a lot of students agree. Hope I don't sound very entitled. ![Screenshot%202023-12-01%20at%2011.15.45.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/c1ca079a-2e07-4ea6-af80-354a287c7445/Screenshot%202023-12-01%20at%2011.15.45.png)
+37
+1229
+Quiz 12
+Quiz 12: Which technique to select for a use case?
+I'm struggling to figure out which technique to use when? Can someone please help explain? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/9c9e8d57-8f5e-4adf-afc6-71154cb933a1/image.png)
+3
+1226
+Project
+Peer Review Grading
+Can we get clarification from the course staff on how the peer review will factor into our final project grade? Will our grade be only based on these peer reviews or will the course staff also be looking at the projects and providing a grade? Additionally, instead of being assigned 2-3 projects as on Coursera, we have been assigned 7. Is this correct?
+6
+1221
+Project
+Peer review
+Are we assigned peer review topics yet?
+0
+1219
+Exam 2
+Can anyone please explain how to solve this question? Thanks
+Suppose that we now use Laplace smoothing, what is P(θ1|d3)? Note that Laplace smoothing is an additive smoothing method that is defined by P(w|θi)=(c(w,Ti)+1)/(|Ti|+|V|) where |V| is the size of the vocabulary in the training data (i.e., the number of unique terms in the training data). T1:{d1=(w1w1w1w1w3w3)} T2:{d2=(w1w1w2w2w3w4)} 1/2 3/7 5/8 2/29
+1
+1217
+Exam 2
+Exam 2 Content Clarification
+Does the exam 2 cover all the weeks or only the weeks after exam 1 ?
+1
+1216
+Programming Assignment 3
+Where in the code do we select our classifier?
+Looking at the starter code for MP3.2 and trying to find where I can modify the classifier to choose Longformer but I cannot find it. Any tips?
+0
+1214
+General
+Finals
+Hi, I'm a senior taking the 3 credit course. Just came across showing that there will be a final at Siebel 0216? I have attached the image. Just to make sure the final is basically the exam 2 coming up right? ![Screenshot%202023-11-30%20at%2011.18.02%E2%80%AFAM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/26fd343b-c2cb-4f6f-a4b1-236502bc2f01/Screenshot%202023-11-30%20at%2011.18.02%E2%80%AFAM.png)
+0
+1213
+Exam 2
+Hi, I did made an reservation for exam2 on Nov15. I just saw my email showing cancelled.. why?
+![image2023-11-30%2006%3A48%3A51.jpg](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/8816fe38-6e98-4b31-a5f4-77172028f808/image2023-11-30%2006%3A48%3A51.jpg)![image2023-11-30%2006%3A48%3A27.jpg](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/a30528f2-c6c3-4d50-ac4d-837ee9a191cc/image2023-11-30%2006%3A48%3A27.jpg)
+0
+1212
+General
+What is the project due date?
+In Coursera I see that it is due the 15th, however I have seen some posts that it is due a week earlier? Which one is correct? Our team has been working against the 15th deadline
+0
+1211
+Quiz 8
+Entropy
+![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/01afe6bc-5fe2-445c-9e46-28d9d35478bf/image.png) Can someone help explain this one?
+0
+1210
+General
+ProctorU: Not able to see the exam CS 410 in the drop down
+Hi Fellows, I am trying to book my proctor U exam , however I dont see the CS 410 option in the dropdown ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/d3f0a7d9-db46-4bbd-b260-869edfc7e02b/image.png) Shouldn't we see CS410 in the dropdown? Regards
+0
+1209
+Programming Assignment 3
+MP3.2 return status is always FAILURE
+For those who have gotten the livedatalab grader to work, what exactly are we supposed to submit? I have attempted to submit the following three things multiple times: - livedatalab_config.json - metamia_results.csv - mp3.1_results.csv In livedatalab, it keeps giving a FAILURE response, but has no troubleshooting to help (it just constantly says: "No logs available yet. Your build may still be starting up."). Github says it successfully delivered my payload with a 200 response. metamia is a 500+1("label) line csv file (same as the test set) mp3.1 is a 420+1("label") line csv file (same as the test set).
+0
+1208
+Exam 2
+Can someone please explain these questions from Quiz 11? (11.5/11.6)
+Suppose we have the following training dataset of emails where each email is associated with the label spam or ham (not-spam). We want to train a Naive Bayes classifier based on this dataset. d1 is Spam and have words: Save Money No Fees d2 is Ham and have words: Back to the Future d3 is Ham and have words: Back to School Night Using maximum likelihood estimation without smoothing, what is P(Spam)? 1/3 1/2 1/4 1/5 Assume the same given as in Question 5 and that additive probability smoothing is being used to evaluate P(w|Spam) and P(w|Ham), where |V|=10 is the size of the vocabulary. ![Screenshot%202023-11-29%20at%207.11.17%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/25eb0d2d-6730-49b9-bc62-e7754852f683/Screenshot%202023-11-29%20at%207.11.17%20PM.png) Which of the following documents has the highest probability of being classified as spam by the Naive Bayes classifier? Hint: You should not need to compute the actual probabilities to answer this question. You can answer it by inspecting the score function on the slide entitled "Anatomy of Naïve Bayes Classifier." (Lecture 11.1) “No fees” “Save money back” “Save money future” “Future school no fees”
+1
+1203
+Exam 2
+Horrible test taking experience
+Went through 4 proctors & took 1.5 hours just to get into the exam. ProctorU kept booting me out and shutting down the lockdown browser. ProctorU is horrible, I don't understand why a top CS program is using such a jurassic software. Use CBTF or literally anything else. On top of that, I had to pay $28 to take the exam. $40,000 in tuition isn't enough? TLDR: Worst exam experience I've had due to the horrible proctors & software of ProctorU. Do better
+14
+1200
+Project
+Peer Review
+I've not received any assignments for peer reviews. I've accepted the CMT link multiple times. My understanding was that peer review assignments would be made available today. Has anyone received peer review assignments?
+1
+1197
+General
+Relevant Lectures
+I know that some of the topics are not going to be on the next midterm so I was wondering if anybody went ahead and made a list of useful lectures to rewatch. Edit:Maybe lectures that aren't worth watching again Thanks!
+2
+1194
+Project
+Tutorial Presentation Video
+Can I use an un-named Youtube video as a method for linking to the tutorial presentation? Or should the video of the tutorial presentation be uploaded to the Github course project directly and linked via Github in the software documentation? Pl. confirm the right method.
+2
+1193
+Exam 2
+Can anyone explain how to get this answer? Thanks
+![Screen%20Shot%202023-11-28%20at%209.15.53%20PM.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/380abca5-e0c2-4731-aede-4b249fbfe3e4/Screen%20Shot%202023-11-28%20at%209.15.53%20PM.png)
+0
+1192
+Exam 2
+Exam 2 Quizzes Study Guide
+Hi everyone, with this being Exam week I have gathered all the quizz questions and answers into a comprehensive Google Form. Please feel free to utilize this resource for your study purposes. No email sign in is required https://forms.gle/g5ugBYeEVADsPg4C8
+28
+1190
+Quiz 11
+Practice Quiz 11 Explanations Part 2
+Can someone provide more insight on these questions as well? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/932ae8c6-5755-42c8-b0b2-f4295adf25e5/image.png)![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/78bfca04-cae0-4d2c-a949-a12a4a764f53/image.png)
+2
+1189
+Quiz 11
+Practice Quiz 11 Explanations
+Can someone provide more of a robust explanation for how to understand these questions? ![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/1bb1d4ea-05bd-48eb-a521-229e0d9fdff4/image.png)
+1
+1187
+General
+A really nice collection of papers on LLM evaluation
+Hi, I wanted to share a collection of papers on LLM evaluation I stumbled upon recently. https://github.com/tjunlp-lab/Awesome-LLMs-Evaluation-Papers Enjoy!
+5
+1186
+Project
+Project Pivot
+Hi, I ran into some trouble implementing my project as originally proposed. It is reasonable to extend my project in a different but adjacent direction to ensure enough progress overall was made even if not the original proposal. I plan to explain it thoroughly in my final report.
+0
+1184
+Project
+How many pages for Project Report?
+What should be the min - max pages for the Course Project Report?
+0
+1182
+Programming Assignment 3
+MP3.2 mp3.1_train & test Val Accuracy Issue: 58.04%
+Hi, What is the Val Accuracy you get for training and test data from mp3.1? I tried so many times but only got the val Accuracy around 58%, Is there any way to get a better result? please advise... Thanks
+0
+1181
+General
+Article: Accuracy, precision, recall and F1 for classification evaluation explained
+https://txt.cohere.com/classification-eval-metrics/
+2
+1180
+Quiz 7
+paradigmatically
+![image.png](https://files.campuswire.com/4a2f7542-f146-4a8d-b5cc-5c40984d22e5/786a2a80-bc54-49d0-a761-46be86ee6e4e/image.png) In the explanation, it says > We would generally not obtain a meaningful sentence by substituting “laptop” for “keyboard.” Doesn't that mean We would generally not obtain a meaningful sentence by substituting “computer” for “keyboard.” as well?
+0
+1179
+Exam 2
+Exam 2 questions
+How many questions will there be for exam 2?
+0
+1178
+Exam 2
+When will Exam 2 take place?
+When will exam 2 take place? I did not receive anything in my email. And I did not see any announcements
+0
+1173
+Programming Assignment 3
+Validating F1 score for MP 3.2
+Is there an easier way to validate the F1 score in the Jupyter notebook? Or is the only way to check the F1 score of your model pushing to github and checking on livedatalab?
+0
+1171
+Programming Assignment 3
+Training 3.2
+What exactly are we using to train the BERT? Are we supposed to use the metamia training data to predict on metamia and the 3.1 training data to predict on the 3.1 test data? Or are we supposed to combine the metamia + 3.1 training data to train the model
+0
+1170
+Programming Assignment 3
+Data for MP3.2
+I am unable to download the dataset for MP3.2. Some issue with my login. If someone has downloaded can you send pls. Thanks
+0
