@@ -3,7 +3,7 @@
 Group Name: Developer Team
 | Name          | Email                 |
 | ------------- |:---------------------:|
-| Allan Huang   | shengqi5@illinois.edu |
+| Allan(Shengqi) Huang | shengqi5@illinois.edu |
 | Chu-ching Ho  | cch11@illinois.edu    |
 | Danmeng Zheng | danmeng2@illinois.edu |
 | Zengjie Tang  | zengjie3@illinois.edu |
@@ -36,6 +36,20 @@ nltk.download()
 username = "xxx"
 password = "xxx"
 ```
+
+* Modify driver option in line 26-33 of crawler.py file in Crawler folder. The default is Edge.
+```python
+# determine which operating system
+if sys.platform == "win32":
+    self.browser = webdriver.Edge('Drivers/msedgedriver.exe', capabilities=desired_cap)
+elif sys.platform == "darwin":
+    # Use this line if you are using Edge
+    self.browser = webdriver.Edge('Drivers/msedgedriver', capabilities=desired_cap)
+    
+    # Use this line if you are using Chrome
+    # self.browser = webdriver.Chrome()
+```
+
 * (Optional) In the line 65 of crawler.py file in Crawler folder, you can also change the number of most recent posts you’d like to scrape. The default is 100.
 ```python
 # loop through a fixed number of posts
