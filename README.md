@@ -13,6 +13,8 @@ Our team has chosen theme 1: Intelligent Browsing. We have improved a browser ex
 
 The search function in Campuswire only returns posts that match the keyword. However, the results are not ranked by their relevance to the query. The project of previous students improved the retrieval results to be the most relevant posts. However, the search results also don’t have other information like several likes or the exact date of the posts, which makes it difficult for the users to judge the usability of the posts. Furthermore, the codes of extension and crawler from the previous project did not work like what they showed in the demo. So we solved the crawler and extension malfunctions and we integrated additional information related to the posts with BM25 for more relevant retrieval results. We also improved the extension visibility and showed more information related to the posts for a better user experience.
 
+## Tutorial Presentation
+Link: https://mediaspace.illinois.edu/media/t/1_aqy9j3a4
 ## Setup(2 parts)
 **NOTE:** Please see CS410 Project Documentation.pdf for more detailed explanation
 ## *Part 1*. Crawler setup and usage guide
@@ -41,11 +43,7 @@ password = "xxx"
 ```python
 # determine which operating system
 if sys.platform == "win32":
-    # Use this line if you are using Edge
     self.browser = webdriver.Edge('Drivers/msedgedriver.exe', capabilities=desired_cap)
-
-    # Use this line if you are using Chrome
-    # self.browser = webdriver.Chrome('Drivers/chromedriver.exe')
 elif sys.platform == "darwin":
     # Use this line if you are using Edge
     self.browser = webdriver.Edge('Drivers/msedgedriver', capabilities=desired_cap)
@@ -62,14 +60,9 @@ for i in range(0, 100):
 
 ### Run Crawler
 1. Navigate to the **Crawler** folder
-2. For mac, use this command `FLASK_APP=main.py flask run` to run the application.
+2. Use this command `FLASK_APP=main.py flask run` to run the application.
 ```console
 (base) dmz@DMZs-MBP crawler % FLASK_APP=main.py flask run
-```
-For windows, use these two commands `$env:FLASK_APP = "main.py"` and `flask run` to run the application.
-```console
-$env:FLASK_APP = "main.py"
-flask run
 ```
 3. Ctrl+Click or Simply click on http://127.0.0.1:5000, a new window of browser should automatically pop up, login and start scraping pages
 4. To test if the scraping and ranking is successful, enter http://127.0.0.1:5000/{keyword} in the browser. It should return top 5 most relevant posts according to rank.py.  
