@@ -41,7 +41,11 @@ password = "xxx"
 ```python
 # determine which operating system
 if sys.platform == "win32":
+    # Use this line if you are using Edge
     self.browser = webdriver.Edge('Drivers/msedgedriver.exe', capabilities=desired_cap)
+
+    # Use this line if you are using Chrome
+    # self.browser = webdriver.Chrome('Drivers/chromedriver.exe')
 elif sys.platform == "darwin":
     # Use this line if you are using Edge
     self.browser = webdriver.Edge('Drivers/msedgedriver', capabilities=desired_cap)
@@ -58,9 +62,14 @@ for i in range(0, 100):
 
 ### Run Crawler
 1. Navigate to the **Crawler** folder
-2. Use this command `FLASK_APP=main.py flask run` to run the application.
+2. For mac, use this command `FLASK_APP=main.py flask run` to run the application.
 ```console
 (base) dmz@DMZs-MBP crawler % FLASK_APP=main.py flask run
+```
+For windows, use these two commands `$env:FLASK_APP = "main.py"` and `flask run` to run the application.
+```console
+$env:FLASK_APP = "main.py"
+flask run
 ```
 3. Ctrl+Click or Simply click on http://127.0.0.1:5000, a new window of browser should automatically pop up, login and start scraping pages
 4. To test if the scraping and ranking is successful, enter http://127.0.0.1:5000/{keyword} in the browser. It should return top 5 most relevant posts according to rank.py.  
