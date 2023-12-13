@@ -24,7 +24,11 @@ class WebCrawler:
         desired_cap = {}
         # determine which operating system
         if sys.platform == "win32":
-            self.browser = webdriver.Edge('Drivers/msedgedriver.exe', capabilities=desired_cap)
+            # Use this line if you are using Edge
+            # self.browser = webdriver.Edge('Drivers/msedgedriver.exe', capabilities=desired_cap)
+
+            # Use this line if you are using Chrome
+            self.browser = webdriver.Chrome('Drivers/chromedriver.exe')
         elif sys.platform == "darwin":
             # Use this line if you are using Edge
             self.browser = webdriver.Edge('Drivers/msedgedriver', capabilities=desired_cap)
